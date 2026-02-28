@@ -1,6 +1,4 @@
-const VC_API_KEY = "RS23BC5Z2GM2T9WMGLJ53AVHA";
-
-
+const VC_API_KEY = VC_API_KEY;
 export async function fetchData(location) {
 	const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}/next7days?key=${VC_API_KEY}&unitGroup=metric&include=days,current&contentType=json`
 	try {
