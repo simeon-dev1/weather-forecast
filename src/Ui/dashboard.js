@@ -15,7 +15,6 @@ export default {
 		const current = dataObj.currentConditions;
 		const today = dataObj.days[0]
 		const days = dataObj.days
-console.log(dataObj)
 
 		this.renderCurrent(current, dataObj);
 		this.renderToday(today);
